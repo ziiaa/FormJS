@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 3</title>
+</head>
+<body>
+    <!--Button Form-->
+    <form action="">
+        <input placeholder="Tulisakan Nama Anda!" type="text" name="" id="nama">
+        <br>
+        <!--Button Kirim-->
+        <button type="button" onclick="ambilnama()" id="Kirim">Kirim</button>
+    </form>
+    <!--JS-->
+    <script>
+        function ambilnama(){
+            let nama = document.getElementById('nama').value;
+            alert('Nama Saya adalah ' + nama);
+        }
+        //alert('Hello World, Saya Jago Coding');
+    </script>
+</body>
+</html>
